@@ -1,0 +1,28 @@
+{
+  "name": "uniapp-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c config/rollup.config.js",
+	"dev": "rollup -c config/rollup.dev.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@vue/compiler-sfc": "^3.0.4",
+    "rollup": "^2.34.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-vue": "^6.0.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-javascript-obfuscator": "^1.0.4",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
